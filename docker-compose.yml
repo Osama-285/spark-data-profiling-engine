@@ -1,0 +1,12 @@
+services:
+  spark-jupyter:
+    build: .
+    image: spark-jupyter:profiling
+    container_name: spark-jupyter
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - ./notebooks:/opt/notebooks
+      - ./data:/opt/data
+      - ./output:/opt/output
