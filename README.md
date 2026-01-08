@@ -112,15 +112,3 @@ spark-submit profiling/spark_data_profiler.py
 
 Or run interactively in Jupyter for exploration.
 
----
-
-## 📈 Future Enhancements
-
-* Partition recommendation engine
-* Join skew mitigation suggestions
-* Parquet / Delta support
-* Integration with AWS Glue / Databricks
-* Export profiling results to JSON / Data Catalog
-
-
-Just say the word.
